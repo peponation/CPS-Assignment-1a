@@ -84,9 +84,9 @@
                     <outgoingTransitions xmi:id="_tPa10L5KEfCwV-qLKp-y4A" specification="" target="_oZbXQL5KEfCwV-qLKp-y4A"/>
                   </vertices>
                   <vertices xsi:type="sgraph:State" xmi:id="_RcPNUL5LEfCwV-qLKp-y4A" name="Cat detection" incomingTransitions="_Vc_tAL5LEfCwV-qLKp-y4A _o-60gL5LEfCwV-qLKp-y4A">
-                    <outgoingTransitions xmi:id="_ZlzVcL5LEfCwV-qLKp-y4A" specification="after cons.motion_timeout s / cat_detect = 0" target="_oZbXQL5KEfCwV-qLKp-y4A"/>
+                    <outgoingTransitions xmi:id="_ZlzVcL5LEfCwV-qLKp-y4A" specification="after cons.motion_timeout s" target="_oZbXQL5KEfCwV-qLKp-y4A"/>
                     <outgoingTransitions xmi:id="_o-60gL5LEfCwV-qLKp-y4A" specification="sensors.motion / cat_detect++" target="_RcPNUL5LEfCwV-qLKp-y4A"/>
-                    <outgoingTransitions xmi:id="__kGKQL5OEfCwV-qLKp-y4A" specification="[cat_detect == 3]  / cat_detect = 0" target="_pZPOcL5KEfCwV-qLKp-y4A"/>
+                    <outgoingTransitions xmi:id="__kGKQL5OEfCwV-qLKp-y4A" specification="[cat_detect == 3]" target="_pZPOcL5KEfCwV-qLKp-y4A"/>
                   </vertices>
                   <vertices xsi:type="sgraph:State" xmi:id="_M4mQwL5QEfCwV-qLKp-y4A" name="Door arming" incomingTransitions="_TQPvUL5QEfCwV-qLKp-y4A">
                     <outgoingTransitions xmi:id="_9oDCYL5QEfCwV-qLKp-y4A" specification="after cons.door_trigger_delay s" target="_pZPOcL5KEfCwV-qLKp-y4A"/>
