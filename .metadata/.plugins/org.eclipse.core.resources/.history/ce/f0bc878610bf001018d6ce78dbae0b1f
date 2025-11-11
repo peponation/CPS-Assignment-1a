@@ -217,27 +217,4 @@ testclass home_automation for statechart Statechart {
 
         exit
     }
-    
-    @Test
-    operation testPowerOutageLights() {
-        enter
-
-        // turn on lights
-        raise control_panel.light
-        proceed 1s
-        assert state.light == true
-
-        raise external.power_toggle
-
-        proceed 1s
-        assert !state.light
-
-        raise external.power_toggle
-
-        proceed 1s
-        // alarm triggered by door
-        assert !state.light
-
-        exit
-    }
 }

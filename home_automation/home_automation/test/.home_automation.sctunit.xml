@@ -1,53 +1,28 @@
 <testsuite name="home_automation" time="">
-  <testcase name="isLightOffAfterInit" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.isLightOffAfterInit" time="">
+  <testcase name="isLightOffAfterInit" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.isLightOffAfterInit" time="">
   </testcase>
-  <testcase name="testLightOn" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testLightOn" time="">
-    <failure>Assertion failed: "assert state.light == true" (Line 16)
-    	name: state.light, value: false
-    </failure>
+  <testcase name="testLightOn" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testLightOn" time="">
   </testcase>
-  <testcase name="testLightAuto" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testLightAuto" time="">
+  <testcase name="testLightAuto" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testLightAuto" time="">
   </testcase>
-  <testcase name="testLightAutoMovement" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testLightAutoMovement" time="">
-    <failure>Assertion failed: "assert state.light == true" (Line 43)
-    	name: state.light, value: false
-    </failure>
+  <testcase name="testLightAutoMovement" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testLightAutoMovement" time="">
   </testcase>
-  <testcase name="testAlarmInit" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testAlarmInit" time="">
+  <testcase name="testAlarmInit" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmInit" time="">
   </testcase>
-  <testcase name="testArming" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testArming" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 92)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testArming" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testArming" time="">
   </testcase>
-  <testcase name="testAlarmTriggeredByWindow" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByWindow" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 102)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testAlarmTriggeredByWindow" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByWindow" time="">
   </testcase>
-  <testcase name="testAlarmTriggeredByDoor" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByDoor" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 114)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testAlarmTriggeredByDoor" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByDoor" time="">
   </testcase>
-  <testcase name="testAlarmTriggeredByMotion" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByMotion" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 140)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testAlarmTriggeredByMotion" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByMotion" time="">
   </testcase>
-  <testcase name="testMotionThenWindow" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testMotionThenWindow" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 162)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testMotionThenWindow" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testMotionThenWindow" time="">
   </testcase>
-  <testcase name="testDoorThenWindow" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testDoorThenWindow" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 183)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testDoorThenWindow" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testDoorThenWindow" time="">
   </testcase>
-  <testcase name="testMotionDoorTriggeredByDoor" classname="platform:/resource/home_automation/test/home_automation.sctunit#home_automation.testMotionDoorTriggeredByDoor" time="">
-    <failure>Assertion failed: "assert state.armed == true" (Line 205)
-    	name: state.armed, value: false
-    </failure>
+  <testcase name="testMotionDoorTriggeredByDoor" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testMotionDoorTriggeredByDoor" time="">
+  </testcase>
+  <testcase name="testPowerOutageLights" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testPowerOutageLights" time="">
   </testcase>
 </testsuite>

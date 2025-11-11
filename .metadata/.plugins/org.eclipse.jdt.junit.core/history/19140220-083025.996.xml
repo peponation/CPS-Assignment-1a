@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="home_automation" tests="13" started="13" failures="1" errors="0" ignored="0">
+  <testsuite name="home_automation">
+    <testcase name="isLightOffAfterInit" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.isLightOffAfterInit"/>
+    <testcase name="testLightOn" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testLightOn"/>
+    <testcase name="testLightAuto" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testLightAuto"/>
+    <testcase name="testLightAutoMovement" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testLightAutoMovement"/>
+    <testcase name="testAlarmInit" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmInit"/>
+    <testcase name="testArming" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testArming"/>
+    <testcase name="testAlarmTriggeredByWindow" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByWindow"/>
+    <testcase name="testAlarmTriggeredByDoor" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByDoor"/>
+    <testcase name="testAlarmTriggeredByMotion" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testAlarmTriggeredByMotion">
+      <failure>Assertion failed: "assert state.siren" (Line 151)
+    	name: state.siren, value: 
+    </failure>
+    </testcase>
+    <testcase name="testMotionThenWindow" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testMotionThenWindow"/>
+    <testcase name="testDoorThenWindow" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testDoorThenWindow"/>
+    <testcase name="testMotionDoorTriggeredByDoor" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testMotionDoorTriggeredByDoor"/>
+    <testcase name="testPowerOutageLights" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testPowerOutageLights"/>
+  </testsuite>
+</testrun>
