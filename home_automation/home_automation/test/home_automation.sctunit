@@ -240,4 +240,33 @@ testclass home_automation for statechart Statechart {
 
         exit
     }
+    
+    @Test
+    operation testPowerOutageArming() {
+        enter
+
+        // First power outage disarmed
+        raise external.power_toggle
+        assert !state.armed
+        // Then while arming
+        raise control_panel.alarm
+        proceed 1s
+        raise external.power_toggle
+        assert state.armed == false
+        
+        // Then while armed
+        raise control_panel.alarm
+        proceed 10s
+        assert state.armed == true
+        raise external.power_toggle
+        proceed 1s
+        assert state.armed == false
+        raise external.power_toggle
+        proceed 1s
+        
+        // Alarm must be back on
+        assert state.armed == true
+
+        exit
+    }
 }
