@@ -25,4 +25,6 @@
   </testcase>
   <testcase name="testPowerOutageLights" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testPowerOutageLights" time="">
   </testcase>
+  <testcase name="testPowerOutageArming" classname="platform:/resource/home_automation/home_automation/test/home_automation.sctunit#home_automation.testPowerOutageArming" time="">
+  </testcase>
 </testsuite>
